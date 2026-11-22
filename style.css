@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
     --main-color: rgb(51, 17, 5);
@@ -10,8 +10,7 @@
     --text-color: #6e5a4f;
 }
 
-.main {
-    font-family: "Raleway", sans-serif;
+body {
     background-color: var(--bg-color);
 }
 
@@ -24,6 +23,25 @@
 
 .upper-header {
     background-color: var(--main-color);
+}
+
+.banner {
+    background-image: url(./Images/background.png);
+    background-size: cover;
+    background-position: center 40%;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.banner>h1 {
+    color: var(--bg-color);
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.main-container {
+    font-family: "Raleway", sans-serif;
+    background-color: var(--bg-color);
 }
 
 .btn {
@@ -50,10 +68,16 @@
 .card-title {
     font-size: 1.2rem;
     font-weight: 700;
+    color: var(--headline-color);
 }
 
+.footer-container {
+    background-color: var(--main-color);
+    height: 5rem;
+}
 
-
-
+h3 {
+    color: var(--bg-color);
+}
 
 
